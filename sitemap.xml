@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://compresspixel.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/compress-jpg.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/compress-png.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/compress-image-under-100kb.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-image-for-email.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-image-for-email.webp</image:loc>
+      <image:title>Compress Image For Email</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-image-for-linkedin.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-image-for-linkedin.webp</image:loc>
+      <image:title>Compress Image For Linkedin</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-image-for-whatsapp.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-image-for-whatsapp.webp</image:loc>
+      <image:title>Compress Image For Whatsapp</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-image-to-200kb.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-image-to-200kb.webp</image:loc>
+      <image:title>Compress Image To 200Kb</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-image-to-50kb.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-image-to-50kb.webp</image:loc>
+      <image:title>Compress Image To 50Kb</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-image-under-100kb.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-image-under-100kb.webp</image:loc>
+      <image:title>Compress Image Under 100Kb</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-images-for-website-speed.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-images-for-website-speed.webp</image:loc>
+      <image:title>Compress Images For Website Speed</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-jpg-without-losing-quality.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-jpg-without-losing-quality.webp</image:loc>
+      <image:title>Compress Jpg Without Losing Quality</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-passport-photo-online.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-passport-photo-online.webp</image:loc>
+      <image:title>Compress Passport Photo Online</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-photo-for-job-application.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-photo-for-job-application.webp</image:loc>
+      <image:title>Compress Photo For Job Application</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-png-or-convert-to-webp.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-png-or-convert-to-webp.webp</image:loc>
+      <image:title>Compress Png Or Convert To Webp</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-product-images-for-ecommerce.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-product-images-for-ecommerce.webp</image:loc>
+      <image:title>Compress Product Images For Ecommerce</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/compress-screenshot-without-blur.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/compress-screenshot-without-blur.webp</image:loc>
+      <image:title>Compress Screenshot Without Blur</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/convert-png-to-webp-online.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/convert-png-to-webp-online.webp</image:loc>
+      <image:title>Convert Png To Webp Online</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/how-to-compress-image-online.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/how-to-compress-image-online.webp</image:loc>
+      <image:title>How To Compress Image Online</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/image-compression-for-seo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/image-compression-for-seo.webp</image:loc>
+      <image:title>Image Compression For Seo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/jpg-vs-png-vs-webp.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/jpg-vs-png-vs-webp.webp</image:loc>
+      <image:title>Jpg Vs Png Vs Webp</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/private-image-compressor-no-upload.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/private-image-compressor-no-upload.webp</image:loc>
+      <image:title>Private Image Compressor No Upload</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/reduce-image-size-in-kb-online.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/reduce-image-size-in-kb-online.webp</image:loc>
+      <image:title>Reduce Image Size In Kb Online</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/blog/resize-image-for-instagram.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://compresspixel.com/assets/blog/resize-image-for-instagram.webp</image:loc>
+      <image:title>Resize Image For Instagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/about.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/contact.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/privacy-policy.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/cookie-policy.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/terms.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://compresspixel.com/disclaimer.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>
