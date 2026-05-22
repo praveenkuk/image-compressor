@@ -1,4 +1,4 @@
-﻿# CompressPixel
+# CompressPixel
 
 Free static image compressor built for GitHub Pages.
 
@@ -19,7 +19,7 @@ Free static image compressor built for GitHub Pages.
 2. Upload these files to the repository.
 3. In GitHub, open Settings > Pages.
 4. Select the main branch and root folder.
-5. Your site will be available at `https://praveenkuk.github.io/image-compressor/`.
+5. Your site will be available at `https://compresspixel.com/`.
 
 ## Repository license setting
 

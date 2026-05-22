@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7,12 +7,12 @@
   <meta name="description" content="Compress JPG, PNG, and WebP images online for free. Private browser-based image compression with batch downloads, quality controls, and social media presets.">
   <meta name="keywords" content="image compressor, compress image online, reduce image size, compress jpg, compress png, free image compressor">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://praveenkuk.github.io/image-compressor/">
+  <link rel="canonical" href="https://compresspixel.com/">
   <meta property="og:title" content="CompressPixel - Free Image Compressor Online">
   <meta property="og:description" content="Fast, private image compression that runs locally in your browser.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://praveenkuk.github.io/image-compressor/">
-  <meta property="og:image" content="https://praveenkuk.github.io/image-compressor/assets/og-image.svg">
+  <meta property="og:url" content="https://compresspixel.com/">
+  <meta property="og:image" content="https://compresspixel.com/assets/og-image.svg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#0f766e">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -25,7 +25,7 @@
       "name": "CompressPixel",
       "applicationCategory": "MultimediaApplication",
       "operatingSystem": "Any",
-      "url": "https://praveenkuk.github.io/image-compressor/",
+      "url": "https://compresspixel.com/",
       "description": "Free browser-based image compressor for JPG, PNG, and WebP files.",
       "offers": {
         "@type": "Offer",
@@ -38,17 +38,24 @@
 <body>
   <header class="topbar">
     <a class="brand" href="index.html" aria-label="CompressPixel home">
-      <span class="brand-mark">CP</span>
-      <span>CompressPixel</span>
+      <img class="brand-icon" src="assets/logo-mark.svg" alt="" width="42" height="42">
+      <span class="brand-word">CompressPixel</span>
     </a>
     <nav class="nav" aria-label="Primary navigation">
-      <a href="compress-jpg.html">JPG</a>
-      <a href="compress-png.html">PNG</a>
-      <a href="compress-image-under-100kb.html">Under 100KB</a>
+      <a href="index.html#compressor">Compressor</a>
+      <div class="nav-menu">
+        <button class="nav-menu-button" type="button" aria-haspopup="true">Tools <span aria-hidden="true">v</span></button>
+        <div class="nav-dropdown" role="menu">
+          <a href="compress-jpg.html" role="menuitem"><span>JPG compressor</span><small>For photos and web uploads</small></a>
+          <a href="compress-png.html" role="menuitem"><span>PNG compressor</span><small>For screenshots and graphics</small></a>
+          <a href="compress-image-under-100kb.html" role="menuitem"><span>100KB upload guide</span><small>Tips for strict size limits</small></a>
+        </div>
+      </div>
       <a href="blog/index.html">Blog</a>
       <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
-    <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">DM</button>
+    <a class="header-cta" href="index.html#compressor">Compress now</a>
   </header>
 
   <main>
@@ -175,3 +182,6 @@
   <script src="scripts/app.js" defer></script>
 </body>
 </html>
+
+
+
