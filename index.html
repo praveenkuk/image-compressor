@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CompressPixel - Free Image Compressor Online</title>
+  <meta name="description" content="Compress JPG, PNG, and WebP images online for free. Private browser-based image compression with batch downloads, quality controls, and social media presets.">
+  <meta name="keywords" content="image compressor, compress image online, reduce image size, compress jpg, compress png, free image compressor">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://praveenkuk.github.io/image-compressor/">
+  <meta property="og:title" content="CompressPixel - Free Image Compressor Online">
+  <meta property="og:description" content="Fast, private image compression that runs locally in your browser.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://praveenkuk.github.io/image-compressor/">
+  <meta property="og:image" content="https://praveenkuk.github.io/image-compressor/assets/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="styles/main.css" as="style">
+  <link rel="stylesheet" href="styles/main.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "CompressPixel",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any",
+      "url": "https://praveenkuk.github.io/image-compressor/",
+      "description": "Free browser-based image compressor for JPG, PNG, and WebP files.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="CompressPixel home">
+      <span class="brand-mark">CP</span>
+      <span>CompressPixel</span>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="compress-jpg.html">JPG</a>
+      <a href="compress-png.html">PNG</a>
+      <a href="compress-image-under-100kb.html">Under 100KB</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="about.html">About</a>
+    </nav>
+    <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">DM</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Private, fast, free</p>
+        <h1>Compress images online without uploading them to a server.</h1>
+        <p class="hero-text">Shrink JPG, PNG, and WebP files locally in your browser. Tune quality, resize for social platforms, compare before and after, then download optimized images instantly.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#compressor">Start compressing</a>
+          <a class="secondary-action" href="#features">See features</a>
+        </div>
+      </div>
+      <figure class="hero-image-card">
+        <picture>
+          <source srcset="assets/hero-compression-dashboard.webp" type="image/webp">
+          <img src="assets/hero-compression-dashboard.png" alt="Modern image compression dashboard with before and after image previews" width="1536" height="1024" fetchpriority="high">
+        </picture>
+        <figcaption>Compress images locally, compare savings, and download optimized files.</figcaption>
+      </figure>
+    </section>
+
+    <section class="tool-shell" id="compressor" aria-labelledby="toolTitle">
+      <div class="ad-slot ad-slot-top" aria-label="Advertisement placeholder">
+        <span>Advertisement</span>
+        <small>AdSense or sponsor banner placeholder</small>
+      </div>
+
+      <div class="tool-header">
+        <div>
+          <p class="eyebrow">Image compressor</p>
+          <h2 id="toolTitle">Drop images here</h2>
+        </div>
+        <span class="privacy-pill">Runs in your browser</span>
+      </div>
+
+      <div class="tool-grid">
+        <section class="upload-zone" id="dropZone" aria-label="Upload images">
+          <input id="fileInput" type="file" accept="image/jpeg,image/png,image/webp" multiple>
+          <div class="upload-icon" aria-hidden="true">v</div>
+          <h3>Drag and drop images</h3>
+          <p>Choose JPG, PNG, or WebP files. Batch compression is supported.</p>
+          <button class="primary-action" type="button" id="selectFiles">Choose images</button>
+        </section>
+
+        <aside class="settings-panel" aria-label="Compression settings">
+          <label for="quality">Quality <span id="qualityValue">72%</span></label>
+          <input id="quality" type="range" min="35" max="95" value="72">
+
+          <label for="maxWidth">Resize width</label>
+          <input id="maxWidth" type="number" min="320" max="4000" step="10" value="1920">
+
+          <label for="format">Output format</label>
+          <select id="format">
+            <option value="auto">Keep original</option>
+            <option value="image/jpeg">JPG</option>
+            <option value="image/webp">WebP</option>
+          </select>
+
+          <label for="preset">Preset</label>
+          <select id="preset">
+            <option value="custom">Custom</option>
+            <option value="instagram">Instagram post</option>
+            <option value="whatsapp">WhatsApp sharing</option>
+            <option value="linkedin">LinkedIn post</option>
+            <option value="seo">SEO website image</option>
+          </select>
+
+          <div class="recommendation" id="recommendation">AI recommendation: 72% quality and 1920px width balances clarity and speed for most web images.</div>
+        </aside>
+      </div>
+
+      <section class="results" aria-live="polite">
+        <div class="results-header">
+          <h2>Optimized images</h2>
+          <button class="secondary-action" id="downloadAll" type="button" disabled>Download all</button>
+        </div>
+        <div class="empty-state" id="emptyState">Your compressed images will appear here.</div>
+        <div class="result-list" id="resultList"></div>
+      </section>
+
+      <div class="ad-slot" aria-label="Advertisement placeholder">
+        <span>Advertisement</span>
+        <small>Responsive display ad placeholder</small>
+      </div>
+    </section>
+
+    <section class="feature-band" id="features">
+      <div>
+        <p class="eyebrow">Built for traffic</p>
+        <h2>SEO-friendly pages with a tool people can actually use.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3>Privacy-first</h3>
+          <p>Images are processed in the browser, which gives the site a simple trust message competitors often hide.</p>
+        </article>
+        <article>
+          <h3>Performance score</h3>
+          <p>Each image gets a speed score based on saved bytes and final dimensions.</p>
+        </article>
+        <article>
+          <h3>Long-tail SEO</h3>
+          <p>Dedicated pages target searches like compress JPG online and compress image under 100KB.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Copyright 2026 CompressPixel. All rights reserved.</span>
+    <a href="about.html">About</a>
+    <a href="blog/index.html">Blog</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="cookie-policy.html">Cookies</a>
+    <a href="terms.html">Terms</a>
+    <a href="disclaimer.html">Disclaimer</a>
+    <a href="robots.txt">Robots</a>
+    <a href="sitemap.xml">Sitemap</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.2/dist/browser-image-compression.js" defer></script>
+  <script src="scripts/app.js" defer></script>
+</body>
+</html>

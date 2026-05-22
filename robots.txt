@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://praveenkuk.github.io/image-compressor/sitemap.xml
