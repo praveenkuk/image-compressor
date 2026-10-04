@@ -14,8 +14,7 @@ const elements = {
   recommendation: document.querySelector("#recommendation"),
   resultList: document.querySelector("#resultList"),
   emptyState: document.querySelector("#emptyState"),
-  downloadAll: document.querySelector("#downloadAll"),
-  themeToggle: document.querySelector("#themeToggle")
+  downloadAll: document.querySelector("#downloadAll")
 };
 
 const presets = {
@@ -157,12 +156,6 @@ elements.downloadAll.addEventListener("click", () => {
     link.download = item.name;
     link.click();
   });
-});
-
-elements.themeToggle.addEventListener("click", () => {
-  const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-  document.documentElement.dataset.theme = nextTheme;
-  localStorage.setItem("theme", nextTheme);
 });
 
 const savedTheme = localStorage.getItem("theme");
