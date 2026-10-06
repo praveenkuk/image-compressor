@@ -939,3 +939,113 @@ h3 {
   color: var(--brand);
   font-weight: 700;
 }
+
+/* ---------- Mobile menu ---------- */
+.menu-toggle {
+  display: none;
+}
+
+.nav-menu.is-open .nav-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+@media (max-width: 820px) {
+  .topbar {
+    flex-wrap: wrap;
+  }
+
+  .menu-toggle {
+    display: inline-grid;
+    place-content: center;
+    gap: 5px;
+    width: 2.65rem;
+    height: 2.65rem;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 0.5rem;
+    background: var(--surface-strong);
+    cursor: pointer;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 1.2rem;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--text);
+    transition: transform 160ms ease, opacity 160ms ease;
+  }
+
+  .nav-open .menu-toggle span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .nav-open .menu-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-open .menu-toggle span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .brand {
+    margin-right: auto;
+  }
+
+  .topbar.nav-open .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    order: 10;
+    width: 100%;
+    gap: 0.15rem;
+    padding: 0.5rem 0 0.25rem;
+    border-top: 1px solid var(--line);
+    font-size: 1rem;
+  }
+
+  .topbar.nav-open .nav > a,
+  .topbar.nav-open .nav-menu-button {
+    min-height: 2.9rem;
+    padding: 0 0.6rem;
+  }
+
+  /* Show the Tools links inline inside the open mobile menu */
+  .topbar.nav-open .nav-menu-button {
+    display: flex;
+    width: 100%;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    pointer-events: none;
+  }
+
+  .topbar.nav-open .nav-menu-button span {
+    display: none;
+  }
+
+  .topbar.nav-open .nav-dropdown {
+    position: static;
+    width: auto;
+    padding: 0 0 0.4rem;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  .topbar.nav-open .nav-dropdown a {
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar .header-cta {
+    display: none;
+  }
+}
